@@ -70,7 +70,7 @@ characters.forEach((char) => {
 		}
 	};
 });
-console.log(`The number of characters actually in the tv series is ${num_in_tv}.`);
+console.log(`The number of characters actually in the tv series is ${characters.length-num_in_tv}.`);
 
 // get a list of characters that have the last name "Targaryen"
 let targaryen_chars = [];
